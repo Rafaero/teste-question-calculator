@@ -2,7 +2,7 @@
     "name": "Question Calculator",
     "short_description": "Question Calculator",
     "description":"https://rafaero.github.io/teste-question-calculator/manifest.json",
-    "icon": "logo-claro.png",
+    "icon": "logo-claro.png.png",
     "author": "Keyrus, Rafael Vitor",
     "init_url": "./",
     "features": [
