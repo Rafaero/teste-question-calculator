@@ -94,6 +94,21 @@
       </ul>
      
     </div>
+    <script src="https://platform.staticpipefy.com/pipefy-app.js"></script>
+    <script>
+      PipefyApp.initCall({
+        'pipe-buttons': function(p, pipe) {
+          return [
+            {
+              icon: 'logo-claro.png',
+              text: 'Question Calculator',
+              url: 'https://appear.in/pipefy-pipe-' + pipe.id,
+              target: 'blank'
+            }
+          ];
+        }
+      });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
