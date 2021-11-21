@@ -6,6 +6,6 @@
     "author": "Keyrus, Rafael Vitor",
     "init_url": "./",
     "features": [
-        "card-buttons"
+        "pipe-buttons"
     ]
 }
