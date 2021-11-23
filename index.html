@@ -104,16 +104,30 @@
   <script src="https://platform.staticpipefy.com/pipefy-app.js"></script>
   <script>
     PipefyApp.initCall({
-        'pipe-buttons': function(p, pipe) {
-          return [
-            {
-              text: 'Question Calculator',
-              url: 'https://rafaero.github.io/teste-question-calculator/',
-              target: 'blank'
+      'pipe-buttons': function (p, pipe) {
+        return [
+          {
+            text: 'Question Calculator',
+            callback: function (p) {
+
+              p.dropdown({
+                title: 'Question Calulator 1',
+                items: [
+                  { 
+                    title: 'New Test',
+                    callback: function (p) {
+                      p.sidebar({ title: 'Question', url: 'https://rafaero.github.io/teste-question-calculator/' });
+                      p.closeDropdown();
+                    }
+                  }
+                ]
+
+              })
             }
-          ];
-        }
-      });
+          }
+        ];
+      }
+    });
   </script>
   <script src="script.js"></script>
 </body>
