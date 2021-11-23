@@ -4,7 +4,7 @@
     "description":"https://rafaero.github.io/teste-question-calculator/manifest.json",
     "icon": "logo-claro.png.png",
     "author": "Keyrus, Rafael Vitor",
-    "init_url": "https://rafaero.github.io/teste-question-calculator/",
+    "init_url": "./",
     "features": [
         "pipe-buttons"
     ]
