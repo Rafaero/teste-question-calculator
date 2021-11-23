@@ -7,6 +7,7 @@
     "init_url": "./",
     "features": [
         "pipe-view",
-        "setting-button"
+        "setting-button",
+        "pipe-buttons"
     ]
 }

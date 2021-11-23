@@ -104,12 +104,12 @@
   <script src="https://platform.staticpipefy.com/pipefy-app.js"></script>
   <script>
     PipefyApp.initCall({
-      'pipe-view': function (p, pipe) {
+      'pipe-buttons': function (p, pipe) {
         return (
           {
             Text: 'Question Calculator',
             url: './index.html',
-            hide_create_button: false,
+            target: '_parent',
           }
         )
       }
